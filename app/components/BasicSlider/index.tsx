@@ -18,7 +18,7 @@ const images = [
 ];
 
 export default function BasicSlider() {
-  const slidesPerView = {
+  const slideSettings = {
     0: {
       slidesPerView: 1.4,
       spaceBetween: 10,
@@ -32,7 +32,7 @@ export default function BasicSlider() {
   return (
     <Swiper
       modules={[Navigation, Pagination, Autoplay]}
-      breakpoints={slidesPerView}
+      breakpoints={slideSettings}
       slidesPerView={"auto"}
       centeredSlides={true}
       loop={true}
