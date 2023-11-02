@@ -55,6 +55,7 @@ export default function BasicSlider() {
             height={1038}
             alt="Slider Image"
             sizes="(min-width: 1024px) 100vw, 60vw"
+            loading="eager"
             className={styles.slideImage}
           />
         </SwiperSlide>
